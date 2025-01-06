@@ -165,7 +165,9 @@ body {
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
-        width: 40vw;
+        width: 45vw;
+        height: 40vh;
+        margin-top: 4rem;
     }
     .corte-laser h3 {
         font-size: 146px;
@@ -347,7 +349,8 @@ body {
     }
     .ubicacion1 img {
         padding: 7rem;
-        width: 20vw;
+        width: 30vw;
+        height: auto;
         border-radius: 8px;
         align-items: center;
         justify-content: center;
@@ -703,8 +706,8 @@ body {
         width: 100%;
     }
     .ubicacion-imagen img{
-        width: 100%;
-        height: 50%;
+        width: 50vw;
+        height: 50vh;
         padding: 1rem;
     }
     .entrega{
