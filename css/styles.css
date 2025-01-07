@@ -166,20 +166,29 @@ body {
         align-items: flex-end;
         justify-content: flex-end;
         width: 45vw;
-        height: 40vh;
+        height: 45vh;
         margin-top: 4rem;
+        overflow: hidden;
     }
     .corte-laser h3 {
-        font-size: 146px;
+        align-items: end;
+        text-align: end;
+        font-size: 110px;
         margin-right: 1.5rem;
+        margin-top: 2rem;
     }
     .servicios2 {
         display: flex;
-        flex-direction: row;
-        justify-content: start;
+        justify-content: center;
+        margin: 20px 0;
         flex-direction: column;
-        padding-left: 7rem;
-        padding-right: 7rem;
+        margin-left: 2rem;
+    }
+    .servicios-titulo2{
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+        margin-left: 0.5rem;
     }
     .servicios2 p {
         text-align: left;
