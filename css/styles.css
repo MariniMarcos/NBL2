@@ -506,6 +506,7 @@ body {
 
 /* Media query para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
+    
     /* Aquí puedes agregar los estilos específicos para tablets */
 }
 
@@ -521,6 +522,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        align-items: center;
     }
     .titulo h1 {
         font-size: 30px;
@@ -536,6 +538,14 @@ body {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+    .header-image  {
+        display: flex;
+        flex-direction: column;
+        max-width: 100lvw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .titulo-secundario {
         display: flex;
@@ -592,7 +602,6 @@ body {
         width: 20vw;
     }
     .instagrambuttom{
-        width: 25vw;
         padding:0;
         margin-top: 0.5rem;
         background-color: #006bb6;
@@ -705,10 +714,14 @@ body {
         justify-content: center;
         width: 100%;
     }
-    .ubicacion-imagen img{
-        width: 50vw;
-        height: 50vh;
-        padding: 1rem;
+    .ubicacion1 img{
+        height: auto;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        max-width: 70px;
+        height: 70px;
+        margin-top: 1.5rem;
     }
     .entrega{
         display: flex;
@@ -716,6 +729,21 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+    .materiales{
+        width: 100%;
+        background-color: #BEC0C2;
+        border-color: #BEC0C2;
+        color: black;
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 20px;
     }
     .ubicacion1{
         display: flex;
