@@ -161,6 +161,7 @@ body {
     .servicios-titulo {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         width: 50vw;
         margin-left: 2rem;
         padding-right: 2rem;
