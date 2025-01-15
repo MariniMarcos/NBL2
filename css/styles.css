@@ -10,12 +10,17 @@ body {
 
 /* Media query para ordenadores de escritorio */
 @media (min-width: 1024px) {
+    .col-4{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .titulo {
         display: flex;
         justify-content: space-between;
     }
     .titulo h1 {
-        font-size: 44px;
+        font-size: 20px;
         text-align: left;
         margin: 5rem;
     }
@@ -28,7 +33,7 @@ body {
         text-align: center;
     }
     .titulo img {
-        max-width: 100%;
+        max-width: 95%;
         height: auto;
         margin: 10px;
         border-radius: 8px;
@@ -45,16 +50,16 @@ body {
         align-items: center;
         text-align: center;
         margin-right: 3rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
     .titulo-secundario .lead1 {
-        font-size: 44px;
+        font-size: 20px;
         margin-bottom: 0;
         line-height: 1;
         display: inline;
     }
     .titulo-secundario .lead2 {
-        font-size: 80px;
+        font-size: 40px;
         margin-top: 0;
         line-height: 1;
         display: inline;
@@ -68,24 +73,24 @@ body {
         flex-direction: column;
     }
     .nosotros-text {
-        max-width: 70%;
+        max-width: 100%;
         text-align: left;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
     .nosotros-text p{
-        font-size: 33px;
+        font-size: 20px;
     }
     .nosotros h2{
-        font-size: 146px;
+        font-size: 70px;
     }
     .nav-item {
         height: 100%;
         padding-top: 0.1rem;
     }
     .nav-link{
-        font-size: 25px;
+        font-size: 20px;
     }
     .cotizabutton {
         background-color: #BEC0C2;
@@ -111,6 +116,9 @@ body {
         border-radius: 0;
     }
 
+    .navbar ul{
+        height: 2.9rem;
+    }
     body .navbar {
         background-color: #f58426 !important;
         padding: 0;
@@ -128,14 +136,14 @@ body {
         color: white;
     }
     .navbar-brand {
-        font-size: 33px;
+        font-size: 20px;
     }
     .section {
         padding: 60px 20px;
         margin-top: 80px; /* Adjust this value if needed to avoid content being hidden behind the navbar */
     }
     h1 {
-        font-size: 146px;
+        font-size: 70px;
         text-align: left;
         margin-bottom: 40px;
     }
@@ -148,7 +156,7 @@ body {
     }
     .servicios h2 {
         margin-bottom: 2rem;
-        font-size: 146px;
+        font-size: 70px;
     }
     .servicios-titulo {
         display: flex;
@@ -158,7 +166,7 @@ body {
         padding-right: 2rem;
     }
     .servicios-titulo p {
-        font-size: 33px;
+        font-size: 20px;
     }
     .corte-laser {
         background-color: #f58426;
@@ -173,7 +181,7 @@ body {
     .corte-laser h3 {
         align-items: end;
         text-align: end;
-        font-size: 110px;
+        font-size: 80px;
         margin-right: 1.5rem;
         margin-top: 2rem;
     }
@@ -192,14 +200,14 @@ body {
     }
     .servicios2 p {
         text-align: left;
-        font-size: 33px;
+        font-size: 20px;
     }
     .materiales {
         width: 100%;
         background-color: #BEC0C2;
         border-color: #BEC0C2;
         color: black;
-        font-size: 22px;
+        font-size: 20px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -207,7 +215,7 @@ body {
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        font-size: 30px;
+        font-size: 20px;
     }
     .materiales:hover {
         background-color: #006bb6;
@@ -222,7 +230,7 @@ body {
     }
     .trabajos h2 {
         margin-bottom: 2rem;
-        font-size: 146px;
+        font-size: 70px;
     }
     .trabajos2 {
         display: flex;
@@ -240,7 +248,7 @@ body {
         font-family: 'Teko', sans-serif;
     }
     .trabajos2 h2 {
-        font-size: 50px;
+        font-size: 35px;
     }
     .trabajos2 a {
         color: white;
@@ -255,7 +263,7 @@ body {
     }
     .preguntas h2 {
         margin-bottom: 2rem;
-        font-size: 146px !important;
+        font-size: 70px !important;
     }
     
     .cotiza {
@@ -269,11 +277,11 @@ body {
         margin-top: 2rem;
     }
     .cotiza h2 {
-        font-size: 146px;
+        font-size: 70px;
         margin-bottom: 2rem;
     }
     .cotiza p {
-        font-size: 33px;
+        font-size: 20px;
         margin-bottom: 2rem;
     }
     .formulario {
@@ -317,7 +325,7 @@ body {
         margin: 20px;
     }
     .card-header button {
-        font-size: 33px;
+        font-size: 20px;
         color: black;
         display: flex;
         flex-direction: row;
@@ -357,9 +365,9 @@ body {
         width: 50vw;
     }
     .ubicacion1 img {
-        padding: 7rem;
-        width: 30vw;
-        height: auto;
+        padding: 3rem;
+        width: auto;
+        height: 30vh;
         border-radius: 8px;
         align-items: center;
         justify-content: center;
@@ -376,12 +384,12 @@ body {
     }
     .ubicacion2 h5 {
         color: black;
-        font-size: 146px;
+        font-size: 70px;
         text-align: start;
     }
     .ubicacion2 p {
         color: black;
-        font-size: 33px;
+        font-size: 20px;
         text-align: start;
         margin-left: 0.4rem;
     }
@@ -399,17 +407,17 @@ body {
     }
     }
     .entrega h5 {
-        font-size: 146px;
+        font-size: 70px;
         margin-bottom: 2rem;
     }
     .entrega ul {
-        font-size: 33px;
+        font-size: 20px;
         margin-bottom: 2rem;
     }
     .entrega li {
         margin-bottom: 1rem;
         margin-left: 5rem;
-        font-size: 33px;
+        font-size: 20px;
 
     }
     .gallery {
@@ -426,14 +434,14 @@ body {
     }
     .collapsible {
         background-color: #f1f1f1;
-        color: #444;
+        color: #204;
         cursor: pointer;
         padding: 10px;
         width: 100%;
         border: none;
         text-align: left;
         outline: none;
-        font-size: 33px;
+        font-size: 20px;
         transition: 0.4s;
     }
     .active, .collapsible:hover {
@@ -490,7 +498,7 @@ body {
         justify-content: flex-start;
         align-items: start;
         color: black;
-        font-size: 33px;
+        font-size: 15px;
         font-weight: 500;
     }
     .footer1 a {
